@@ -1,0 +1,40 @@
+main{
+    height: 100vh;
+    background-color: rgb(78, 78, 78);
+}
+.container_slide{
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_previw{
+    height: 30rem;
+    width: 20rem;
+}
+.slide_img{
+    width: 100%;
+    height: 100%;
+}
+.image_previw{
+    width: 100%;
+    height: calc(100%/5);
+}
+.none{
+    display: none;
+}
+.opacity{
+    opacity: 0.2;
+}
+.nOpacity{
+    opacity: 0;
+}
+.sc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 4rem;
+    background-color: grey;
+}     
